@@ -14,6 +14,10 @@ class _RatingScreenState extends State<RatingScreen> {
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0.0,
+        backgroundColor: Colors.teal[100],
+      ),
       body: Container(
           width: size.width,
           height: size.height,

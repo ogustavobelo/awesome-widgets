@@ -76,6 +76,10 @@ class _PaymentCardScreenState extends State<PaymentCardScreen>
     }
 
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0.0,
+        backgroundColor: Colors.orange[50],
+      ),
       backgroundColor: Colors.orange[50],
       body: Column(
         children: <Widget>[
