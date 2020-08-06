@@ -44,6 +44,17 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     ),
               ),
+              Container(
+                alignment: Alignment.center,
+                margin: EdgeInsets.only(bottom: 8.0),
+                child: AnimatedRoundedButton(
+                      text: "Swipeable Button",
+                      color: Colors.orange,
+                      onPressed: ()  {
+                        Navigator.pushNamed(context, Routes.swipeableButton);
+                      },
+                    ),
+              ),
               
             ],
           )
