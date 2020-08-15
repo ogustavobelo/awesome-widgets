@@ -3,4 +3,5 @@ class Routes {
   static String reviewModal = '/reviewModal';
   static String paymentCard3d = '/3dPaymentCard';
   static String swipeableButton = '/swipeableButton';
+  static String contactsList = '/contactsList';
 }
