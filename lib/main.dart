@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:awesome_widgets/core/routes/routes.dart';
 import 'package:awesome_widgets/screens/3dPaymentCard/3dPaymentCard.screen.dart';
+import 'package:awesome_widgets/screens/contactsList/contactsList.screen.dart';
 import 'package:awesome_widgets/screens/home/home.screen.dart';
 import 'package:awesome_widgets/screens/rating/rating.screen.dart';
 import 'package:awesome_widgets/screens/swipeableButton/swipeableButton.screen.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         Routes.reviewModal: (context) => RatingScreen(),
         Routes.paymentCard3d: (context) => PaymentCardScreen(),
         Routes.swipeableButton: (context) => SwipeableButtonScreen(),
+        Routes.contactsList: (context) => ContactsListScreen(),
       },
     );
   }
