@@ -4,10 +4,12 @@ class AnimatedRoundedButton extends StatefulWidget {
   final String text;
   final Function onPressed;
   final Color color;
+  final Color textColor;
   AnimatedRoundedButton({
     @required this.text,
     @required this.onPressed,
     this.color,
+    this.textColor,
   });
   @override
   _AnimatedRoundedButtonState createState() => _AnimatedRoundedButtonState();
@@ -32,7 +34,7 @@ class _AnimatedRoundedButtonState extends State<AnimatedRoundedButton> {
                 widget.onPressed();
               });
             },
-            child: Text(widget.text)));
+            child: Text(widget.text, style: TextStyle(color: widget.textColor ?? Colors.black))));
   }
 
   void setAnimate() {

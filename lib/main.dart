@@ -9,6 +9,8 @@ import 'package:awesome_widgets/screens/swipeableButton/swipeableButton.screen.d
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'screens/parallaxForm/parallaxForm.screen.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
@@ -32,6 +34,7 @@ class MyApp extends StatelessWidget {
         Routes.paymentCard3d: (context) => PaymentCardScreen(),
         Routes.swipeableButton: (context) => SwipeableButtonScreen(),
         Routes.contactsList: (context) => ContactsListScreen(),
+        Routes.parallaxForm: (context) => ParallaxFormScreen(),
       },
     );
   }

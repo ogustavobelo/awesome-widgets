@@ -66,6 +66,17 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     ),
               ),
+              Container(
+                alignment: Alignment.center,
+                margin: EdgeInsets.only(bottom: 8.0),
+                child: AnimatedRoundedButton(
+                      text: "Parallax Form",
+                      color: Colors.orange,
+                      onPressed: ()  {
+                        Navigator.pushNamed(context, Routes.parallaxForm);
+                      },
+                    ),
+              ),
               
             ],
           )

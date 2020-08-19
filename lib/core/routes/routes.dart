@@ -4,4 +4,5 @@ class Routes {
   static String paymentCard3d = '/3dPaymentCard';
   static String swipeableButton = '/swipeableButton';
   static String contactsList = '/contactsList';
+  static String parallaxForm = '/parallaxForm';
 }
