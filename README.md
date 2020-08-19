@@ -8,3 +8,4 @@ Awesome Widgets project
 02. [3D Payment Card](https://youtu.be/dJFEMCQ3roY)
 03. [Swipeable Button](https://youtu.be/PhFCCEvy5bM)
 04. [Contacts List](https://youtu.be/P0PHXmjWDPE)
+05. [Parallax Animated Form](https://youtu.be/W0tOhhSbca0)
